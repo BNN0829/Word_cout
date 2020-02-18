@@ -23,3 +23,7 @@ def count(request):
 
 	return render(request,'count.html',{'total':length,
 		'word':user_text,'wordict':word_dict,'sortdi':sortedict})
+
+
+def about(request):
+	return render(request,'about.html')
