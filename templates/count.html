@@ -1,0 +1,13 @@
+<h1>你一共说了{{total}}个字</h1>
+<h2>你说</h2>
+{{word}}
+<br>
+{{word}}
+<br>
+{{word}}
+<br>
+<h2>出现频率</h2>
+{% for word,count in sortdi %}
+{{word}} - {{count}}
+<br>
+{% endfor %}
